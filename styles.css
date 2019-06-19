@@ -65,13 +65,11 @@ strong{
 }
 
 @media screen and (min-width: 769px) {
-  background-image: url(https://github.com/cpreid0711/Reid-part-one/blob/master/bulldog.jpg) no-repeat center fixed;
-  background-size: cover;
-  width: 100%;
-  
-  html{
-  width: 100%
-}
+    html{
+      background-image: url(https://github.com/cpreid0711/Reid-part-one/blob/master/bulldog.jpg) no-repeat center fixed;
+      background-size: cover;
+      width: 100%;
+  }
 
 .container{
   display: flex;
