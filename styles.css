@@ -1,13 +1,12 @@
-* {
+html {
   font-family: 'Fira Sans', sans-serif;
   background-color: #F0ECEE;
 }
 
+
+
 .container{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  flex-wrap: wrap;
+  height: auto;
 }
 
 nav ul{
@@ -65,26 +64,23 @@ strong{
 }
 
 @media screen and (min-width: 769px) {
-  background: url(https://github.com/cpreid0711/Reid-part-one/blob/master/bulldog.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
       
-      
-  html{
+   html{
     width: 100%;
-  }
+    height: auto;
+  }     
+
 
 .container{
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  flex-wrap: wrap;
+  height: auto;
+  background-image: ("bulldog.jpg");
+  background-size: inherit;
+  
 }
 
 .header{
   display: flex;
   flex: 1;
-  align-items: baseline;
   flex-wrap: wrap;
 }
 
@@ -130,8 +126,7 @@ nav ul li{
   }
   
   .inquiry{
-    width: 15%;
-    
+    width: 5%;
   }
   
 }
