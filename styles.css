@@ -65,7 +65,7 @@ strong{
 }
 
 @media screen and (min-width: 769px) {
-  background-image: url(Desktop/Prework/bulldog.jpg);
+  background-image: url(bulldog.jpg);
   
   html{
   width: 100%
