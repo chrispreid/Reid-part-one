@@ -73,7 +73,7 @@ strong{
 
 .container{
   height: auto;
-  background-image: (bulldog.jpg);
+  background-image: ("bulldog.jpg");
   background-size: inherit;
   
   
