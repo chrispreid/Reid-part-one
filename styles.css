@@ -74,8 +74,8 @@ strong{
 .container{
   height: auto;
   background-image: ("bulldog.jpg");
-  background-size: inherit;
-  
+  background-size: cover;
+   min-height: 100vh;
   
 }
 
