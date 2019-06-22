@@ -3,8 +3,6 @@ html {
   background-color: #F0ECEE;
 }
 
-
-
 .container{
   height: auto;
 }
@@ -45,14 +43,13 @@ strong{
 
 
 .button {
-  display: block;
   text-align: center;
   Color: white;
   background-color: #FF4850;
   padding: 10px;
   border-radius: 15px;
   font-weight: 600;
-  width: 100%;
+  width: auto;
 }
 
 .button:hover{
@@ -63,7 +60,7 @@ strong{
   transition: .2s;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
       
    html{
     width: 100%;
@@ -73,7 +70,7 @@ strong{
 
 .container{
   height: auto;
-  background-image: ("bulldog.jpg");
+  background-image: url("bulldog.jpg");
   background-size: cover;
    min-height: 100vh;
   
@@ -106,7 +103,6 @@ nav ul li{
 }
   
 .button {
-  display: flex;
   text-align: center;
   Color: white;
   background-color: #FF4850;
@@ -131,6 +127,7 @@ nav ul li{
   }
   
 }
+
 
 
 
